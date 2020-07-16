@@ -1,0 +1,6 @@
+.subImg {
+  background: url('../public/imgs/seattle-sub.jpg') no-repeat center;
+  background-size: cover;
+  height: 8em;
+  width: 28em;
+}

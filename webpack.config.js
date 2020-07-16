@@ -14,12 +14,20 @@ module.exports = {
           },
           {
             test: /\.css$/,
+            include: path.join(__dirname, './src/'),
             use: [
               "style-loader", 
               "css-loader",
             ]
-          }
-        ]
+          },
+          {
+            test: /\.(png|jpe?g|gif)$/i,
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+          },
+        },
+      ],
     },
     resolve: {
         extensions: ['*', '.js', '.jsx']

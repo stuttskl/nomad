@@ -1,0 +1,22 @@
+.container {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../public/imgs/seattle.jpg');
+  background-size: cover;
+  padding: 4em;
+  flex: 3;
+}
+
+.textOverlay {
+  display: grid;
+  color: #fff;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-top: -1.53em;
+}
