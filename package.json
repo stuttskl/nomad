@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/stuttskl/nomad#readme",
   "dependencies": {
+    "css-loader": "^3.6.0",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
