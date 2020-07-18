@@ -6,7 +6,7 @@ class SpotlightHeader extends Component {
     const regionDescription = "Find your next flannel in the";
     const regionName = "Pacific Northwest";
     return (
-      <div>
+      <div className='headerContent'>
         <h4>{regionDescription}</h4>
         <h1>{regionName}</h1>
       </div>

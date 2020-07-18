@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './Home';
 import Spotlight from './Spotlight'
+import SearchResultsList from './SearchResultsList';
 import './styles.css';
 import ReactDOM from 'react-dom';
 import {
@@ -9,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import SearchResultList from './SearchResultsList';
 
 
 ReactDOM.render (
@@ -43,5 +45,6 @@ ReactDOM.render (
     //     </Switch>
     //   </div>
     // </Router>, document.getElementById('root')
-    <Spotlight />, document.getElementById('root')
+    //  <Spotlight />, document.getElementById('root')
+    <SearchResultList />, document.getElementById('root')
   );

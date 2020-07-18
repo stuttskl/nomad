@@ -7,7 +7,7 @@ class SpotlightImg extends Component {
     return (
       <div className='container'>
         <div className='textOverlay'>
-          <h1>hello, </h1> <h2>{location}</h2>
+          <h1 className='top'>hello, </h1> <h2 className='bottom'>{location}</h2>
         </div>
       </div>
     )
