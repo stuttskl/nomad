@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import './Home.css';
-// import './styles.css';
+
 
 class Home extends Component {
   render() {
     return (
       <div className='mainContent'>
+        <div className='taglineText'>
+          dare to
+        </div>
         <div className='homeText'>
           redefine home
-          <nav>nav bar</nav>
-          main image
         </div>
-        <div className='footer'>
-          blank space below hero image
+        <div className='btnPosition'>
+          <button className='homeBtn'>
+            where should i go next?
+          </button>
         </div>
       </div>
     )

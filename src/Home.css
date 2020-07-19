@@ -1,15 +1,43 @@
-/* body {
-  background-image: url('../public/imgs/home.jpg');
+.mainContent {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../public/imgs/home.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100em;
+  width: 100%;
 }
 
-.mainContent {
-  background-color: purple;
+.btnPosition {
+  display: flex;
+  justify-content: center;
+}
+
+.homeBtn {
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  width: 17rem;
+  height: 5em;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 .homeText {
-  background-color: green;
+  color: #fff;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5rem;
+  text-transform: lowercase;
+  display: flex;
+  justify-content: center;
 }
 
-.footer {
-  background-color: blue;
-} */
+.taglineText {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding-top: 25rem;
+  display: flex;
+  justify-content: center;
+}

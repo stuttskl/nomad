@@ -10,8 +10,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import SearchResultList from './SearchResultsList';
-
 
 ReactDOM.render (
     <Router>
@@ -39,12 +37,10 @@ ReactDOM.render (
           <Route path="/results">
             <SearchResultsList />
           </Route>
-          {/* <Route path="/">
+          <Route path="/">
             <Home />
-          </Route> */}
+          </Route>
         </Switch>
       </div>
     </Router>, document.getElementById('root')
-    //  <Spotlight />, document.getElementById('root')
-    // <SearchResultList />, document.getElementById('root')
   );
