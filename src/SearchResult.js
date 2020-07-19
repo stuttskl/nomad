@@ -7,7 +7,7 @@ import Button from './Button';
     <div className='result-card'>
       <img src={imgSrc} className='result-card-img'></img>
       <div class='text-content'>
-        <h1 className='location'>{location}</h1>
+        <p className='location'>{location}</p>
         <h4 className='tagline'>{tagline}</h4>
         <p>{description}</p>
         <Button />

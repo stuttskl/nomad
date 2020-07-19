@@ -2,11 +2,14 @@
 
 .location {
   font-family: 'Abril Fatface', cursive;
-
+  font-size: 2rem;
+  text-transform: lowercase;
+  margin-top: -1rem;
 }
 
 .tagline, p {
   font-family: 'Open Sans', sans-serif;
+  margin-top: -1rem;
 }
 
 .result-card-img {
