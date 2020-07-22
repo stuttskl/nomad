@@ -14,7 +14,7 @@ import {
 ReactDOM.render (
     <Router>
       <div>
-        <nav>
+        <nav className='homeNav'>
           <ul>
             <li>
               <Link to="/">Home</Link>

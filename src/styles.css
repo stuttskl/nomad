@@ -1,4 +1,20 @@
-body {
-  margin: 0 auto;
+html {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../public/imgs/home.jpg');
+  /* background: url('../public/imgs/home.jpg'); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+
+.homeNav {
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
