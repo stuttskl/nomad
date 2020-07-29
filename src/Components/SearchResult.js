@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SearchResult.css';
+import '../SearchResult.css';
 import Button from './Button';
 
 

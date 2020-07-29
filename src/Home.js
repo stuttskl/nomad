@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './Home.css';
-
+import history from './history';
 
 class Home extends Component {
   render() {
     return (
+      // <div>
+      //   <button onClick={() => history.push('/SearchResultsList')}>click me</button>
+      // </div>
       <div>
         <div className='mainContent'>
           <div className='taglineText'>
@@ -14,7 +17,7 @@ class Home extends Component {
             redefine home
           </div>
           <div className='btnPosition'>
-            <button className='homeBtn'>
+            <button className='homeBtn' onClick={() => history.push('/SearchResultsList')}>
               where should i go next?
             </button>
           </div>

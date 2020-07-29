@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './SpotlightImg.css';
+import '../SpotlightImg.css';
+
 
 class SpotlightImg extends Component {
   render() {

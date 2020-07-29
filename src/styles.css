@@ -1,9 +1,4 @@
-body, html {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('../public/imgs/home.jpg');
-  background-size: cover;
-}
+/* 
 
 .homeNav {
   display: flex;
@@ -20,4 +15,4 @@ ul {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-}
+} */

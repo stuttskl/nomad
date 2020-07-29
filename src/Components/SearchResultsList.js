@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import SearchResult from './SearchResult';
-import Marrakesh from '../public/imgs/marrakesh.jpg';
-import Santorini from '../public/imgs/santorini.jpg';
-import Bangkok from '../public/imgs/bangkok.jpg';
-import Vienna from '../public/imgs/vienna.jpg';
-import Singapore from '../public/imgs/singapore.jpg';
-import Tokyo from '../public/imgs/tokyo.jpg';
+import Marrakesh from '../../public/imgs/marrakesh.jpg';
+import Santorini from '../../public/imgs/santorini.jpg';
+import Bangkok from '../../public/imgs/bangkok.jpg';
+import Vienna from '../../public/imgs/vienna.jpg';
+import Singapore from '../../public/imgs/singapore.jpg';
+import Tokyo from '../../public/imgs/tokyo.jpg';
+import '../SearchResultsList.css';
 
-import './SearchResultsList.css';
 
 class SearchResultList extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SpotlightContent from './SpotlightContent';
 import SpotlightImg from './SpotlightImg';
-import './Spotlight.css';
+import '../Spotlight.css';
 
 
 class Spotlight extends Component {

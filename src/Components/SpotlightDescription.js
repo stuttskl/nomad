@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './SpotlightDescription.css';
+import '../SpotlightDescription.css';
+
 
 class SpotlightDescription extends Component {
   render() {

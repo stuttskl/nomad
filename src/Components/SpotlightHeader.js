@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SpotlightHeader.css';
+import '../SpotlightHeader.css';
 
 class SpotlightHeader extends Component {
   render() {
