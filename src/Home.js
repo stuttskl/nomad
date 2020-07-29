@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './Home.css';
 import history from './history';
+import Header from './Components/Header';
+import SubHeader from './Components/SubHeader';
+
 
 class Home extends Component {
   render() {
     return (
-      // <div>
-      //   <button onClick={() => history.push('/SearchResultsList')}>click me</button>
-      // </div>
       <div>
+        <Header name='nomad.' />
+        <SubHeader name='live remotely' />
         <div className='mainContent'>
           <div className='taglineText'>
             dare to

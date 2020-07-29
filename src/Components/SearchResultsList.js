@@ -18,7 +18,8 @@ class SearchResultList extends Component {
           location: "Marrakesh, Morocco",
           imgSrc: Marrakesh,
           tagline: "Discover this amazing destination",
-          description: "Man bun palo santo subway tile fingerstache cornhole selvage keffiyeh raw denim sriracha meh jean shorts gochujang irony. Bespoke etsy plaid chillwave keffiyeh 90's. Vegan chicharrones subway tile tbh fashion axe. Letterpress pabst pop-up, beard subway tile franzen locavore bespoke."
+          description: "Man bun palo santo subway tile fingerstache cornhole selvage keffiyeh raw denim sriracha meh jean shorts gochujang irony. Bespoke etsy plaid chillwave keffiyeh 90's. Vegan chicharrones subway tile tbh fashion axe. Letterpress pabst pop-up, beard subway tile franzen locavore bespoke.",
+          spotlightPage: "/Spotlight"
         },
         {
           location: "Santorini, Greece",
