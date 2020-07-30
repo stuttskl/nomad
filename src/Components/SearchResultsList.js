@@ -51,7 +51,8 @@ class SearchResultList extends Component {
           tagline: "Discover this amazing destination",
           description: "Biodiesel fixie street art typewriter cray chambray. Ugh yr pop-up 8-bit tumblr seitan. Kitsch la croix pinterest YOLO, etsy normcore air plant post-ironic trust fund celiac schlitz edison bulb kinfolk. Enamel pin neutra mixtape tattooed tilde direct trade fingerstache."
         }
-      ]
+      ],
+      error: null
     }
   }
 
